@@ -1,0 +1,55 @@
+
+
+body {
+
+    background-color: #5A61D3;
+    color:#FCFCFC ;
+}
+/* Basic styles for the navbar */
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the logo and navigation */
+    align-items: center; /* Center items vertically */
+    background-color: #FCFCFC; /* Background color */
+    padding: 10px 20px; /* Inner spacing */
+    color: white; /* Default text color */
+}
+
+/* Style for the logo link */
+.logo-link {
+    text-decoration: none; /* Remove underline from the link */
+}
+
+/* Style for the logo image */
+.logo {
+    height: 40px; /* Set the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+    color: #282C5F;
+}
+
+/* Style for the navigation list */
+.nav-list {
+    list-style: none; /* Remove default bullet points */
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Add space between list items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for individual list items */
+.nav-list li {
+    display: inline; /* Ensure links stay inline */
+}
+
+/* Style for navigation links */
+.nav-link {
+    text-decoration: none; /* Remove underline */
+    color: #282C5F; /* Set link text color */
+    font-size: 16px; /* Font size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    color: #00bcd4; /* Change color on hover */
+}
