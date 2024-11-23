@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
@@ -138,3 +139,124 @@ button {
     object-fit: cover;
     margin-bottom: 10px;
 }
+=======
+body {
+    background-color: #5A61D3;
+}
+#header {
+    background-color: #FCFCFC;
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbarNav {
+    text-decoration: none;
+    color: inherit;
+    color: #282C5F;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+h1 {
+    color: #FCFCFC;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 300px;
+    text-align: center;
+    margin-top: 90px;
+}
+#button-debut {
+    background-color: #00D4FF;
+    color: #fcfcfc;
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    width: 483px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+#button-arreter {
+    background-color: #5A61D3;
+    color: #fcfcfc;
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    width: 483px;
+    height: 80px;
+    border: 2px solid;
+    border-color: #FCFCFC;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-faq p {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FCFCFC;
+    margin-bottom: 30px;
+}
+#faq {
+    font-family: "Mulish", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #FCFCFC;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.card-faq h3 {
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FCFCFC;
+    margin-bottom: 16px;
+}
+#description {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FCFCFC;
+    margin-bottom: 40px;
+}
+#team {
+    font-family: "Mulish", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #FCFCFC;
+    margin-top: 50px;
+}
+.card-title {
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FCFCFC;
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+.card-body {
+    text-align: left;
+    padding: 0;
+}
+.card {
+    background-color: #5A61D3;
+    border: none;
+}
+.card-text {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FCFCFC;
+}
+.card-img-top {
+    margin-bottom: 0;
+}
+>>>>>>> 95d707e0c248e5ef87aac3aa815130493b03196c
