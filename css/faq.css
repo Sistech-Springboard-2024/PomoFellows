@@ -1,0 +1,24 @@
+#faq {
+    font-family: "Mulish", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #FCFCFC;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.card-faq h3 {
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FCFCFC;
+    margin-bottom: 16px;
+}
+
+.card-faq p {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FCFCFC;
+    margin-bottom: 30px;
+}

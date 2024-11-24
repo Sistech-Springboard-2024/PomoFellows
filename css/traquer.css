@@ -1,0 +1,39 @@
+#countdown {
+    font-size: 200px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* المسافة بين الأزرار */
+}
+
+button.btn {
+    width: 400px; /* تحديد عرض ثابت للأزرار */
+    height: 100px; /* تحديد ارتفاع ثابت للأزرار */
+    font-size: 50px !important; /* حجم النص داخل الزر */
+    border-radius: 10px !important;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button.btn-primary {
+    background-color: #00D4FF; /* تغيير لون الخلفية */
+    border: 2px solid #00D4FF;
+    color: white;
+}
+
+button.btn-primary:hover {
+    background-color: #00bcd4; /* تغيير لون الخلفية */
+}
+
+button.btn-secondary {
+    background-color: #5A61D3; /* تغيير لون الخلفية */
+    border: 2px solid #FCFCFC;
+    color: white;
+}
+
+button.btn-secondary:hover {
+    background-color: #5A61D3; /* تغيير لون الخلفية */
+}

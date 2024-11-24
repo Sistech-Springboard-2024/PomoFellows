@@ -1,0 +1,68 @@
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* ثلاثة أعمدة */
+    gap: 40px;  /* المسافة بين العناصر */
+    text-align: center; /* محاذاة النصوص في المنتصف */
+    margin-right: 20px;
+}
+
+.team-member {
+    padding: 10px;
+    border: 1px solid #ddd; /* حدود خفيفة (اختياري) */
+    border-radius: 8px; /* زوايا مدورة (اختياري) */
+    min-height: 200px;
+}
+
+.foto {
+    width: 100px; /* عرض الصورة */
+    height: 100px; /* ارتفاع الصورة */
+    border-radius: 50%; /* جعل الصور دائرية */
+    object-fit: cover; /* لضبط الصورة داخل الإطار */
+    margin-bottom: 10px; /* مسافة تحت الصورة */
+}
+
+#description {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FCFCFC;
+    margin-bottom: 40px;
+}
+
+#team {
+    font-family: "Mulish", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #FCFCFC;
+    margin-top: 50px;
+}
+
+.card-title {
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FCFCFC;
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+
+.card-body {
+    text-align: left;
+    padding: 0;
+}
+
+.card {
+    background-color: #5A61D3;
+    border: none;
+}
+
+.card-text {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FCFCFC;
+}
+
+.card-img-top {
+    margin-bottom: 0;
+}

@@ -3,159 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jomhuria&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<<<<<<< HEAD
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="../css/style.css">
 
-    <title>Notre équipe</title>
-</head>
-<body>
-    <div class="navbar">
-        <a href="#" class="logo-link">
-            <img src="logo.svg" alt="Логотип" class="logo" width="150px" height="24">
-=======
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jomhuria&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Notre équipe</title>
+   
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/equipe.css">
+
+    <title>Traqueur</title>
 </head>
 <body>
-    <div>
-        <a href="#">
-            <img src="../image/logo.svg" alt="logo" class="logo" width="150px" height="24">
->>>>>>> 95d707e0c248e5ef87aac3aa815130493b03196c
+    <nav class="navbar navbar-expand-lg">
+        <a href="#" class="logo-link">
+            <img src="../image/logo.svg" alt="Логотип" class="logo" width="150px" height="24">
         </a>
-        <nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav-list">
                 <li><a href="PomoFellowsTraquer.html" class="nav-link">Traqueur</a></li>
                 <li><a href="PomoFellowsFAQ.html" class="nav-link">FAQ</a></li>
                 <li><a href="PomoFellowsEquipe.html" class="nav-link">Notre équipe</a></li>
             </ul>
-        </nav>
-    </div>
-    <style>
-        .team-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* ثلاثة أعمدة */
-            gap: 20px; /* المسافة بين العناصر */
-            text-align: center; /* محاذاة النصوص في المنتصف */
-        }
-    
-        .team-member {
-            padding: 10px;
-            border: 1px solid #ddd; /* حدود خفيفة (اختياري) */
-            border-radius: 8px; /* زوايا مدورة (اختياري) */
-        }
-    
-        .foto {
-            width: 100px; /* عرض الصورة */
-            height: 100px; /* ارتفاع الصورة */
-            border-radius: 50%; /* جعل الصور دائرية */
-            object-fit: cover; /* لضبط الصورة داخل الإطار */
-            margin-bottom: 10px; /* مسافة تحت الصورة */
-        }
-    </style>
-    
-    <div>
-        <h2 id="team">NOTRE ÉQUIPE</h2>
-        <p id="description">Travaillé sur le projet:</p>
-    </div>
-<<<<<<< HEAD
-    
-    <div class="team-container">
-        <div class="team-member">
-            <img src="photo.png" alt="Nataliia Andriievska" class="foto">
-            <h3>Nataliia Andriievska</h3>
-            <p>Cheffe de projet</p>
         </div>
-        <div class="team-member">
-            <img src="photo.png" alt="Ekaterina Bredikhina" class="foto">
-            <h3>Ekaterina Bredikhina</h3>
-            <p>Développeuse front-end</p>
+    </nav>
+
+    <main>
+        <div>
+            <h2 id="team">NOTRE ÉQUIPE</h2>
+            <p id="description">Travaillé sur le projet:</p>
         </div>
-        <div class="team-member">
-            <img src="photo.png" alt="Rehab Alzarqa" class="foto">
-            <h3>Rehab Alzarqa</h3>
-            <p>Développeuse front-end</p>
+        
+        <div class="team-container">
+            <div class="team-member">
+                <img src="../image/photo.png" alt="Nataliia Andriievska" class="foto">
+                <h3>Nataliia Andriievska</h3>
+                <p>Cheffe de projet</p>
+            </div>
+            <div class="team-member">
+                <img src="../image/photo.png" alt="Ekaterina Bredikhina" class="foto">
+                <h3>Ekaterina Bredikhina</h3>
+                <p>Développeuse front-end</p>
+            </div>
+            <div class="team-member">
+                <img src="../image/photo.png" alt="Rehab Alzarqa" class="foto">
+                <h3>Rehab Alzarqa</h3>
+                <p>Développeuse front-end</p>
+            </div>
+            <div class="team-member">
+                <img src="../image/photo.png" alt="Shogofa Arwina" class="foto">
+                <h3>Shogofa Arwina</h3>
+                <p>Développeuse front-end</p>
+            </div>
+            <div class="team-member">
+                <img src="../image/photo.png" alt="Quentin Marescaux" class="foto">
+                <h3>Quentin Marescaux</h3>
+                <p>Formateur de développement web</p>
+            </div>
+            <div class="team-member">
+                <img src="../image/photo.png" alt="Cyril Haioun" class="foto">
+                <h3>Cyril Haioun</h3>
+                <p>Formateur de la gestion de projet</p>
+            </div>
         </div>
-        <div class="team-member">
-            <img src="photo.png" alt="Shogofa Arwina" class="foto">
-            <h3>Shogofa Arwina</h3>
-            <p>Développeuse front-end</p>
-        </div>
-        <div class="team-member">
-            <img src="photo.png" alt="Quentin Marescaux" class="foto">
-            <h3>Quentin Marescaux</h3>
-            <p>Formateur de développement web</p>
-        </div>
-        <div class="team-member">
-            <img src="photo.png" alt="Cyril Haioun" class="foto">
-            <h3>Cyril Haioun</h3>
-            <p>Formateur de la gestion de projet</p>
-=======
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-            <div class="card h-100">
-                <img src="../image/photo.png" alt="Nataliia Andriievska" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="card-title">Nataliia Andriievska</h3>
-                    <p class="card-text">Cheffe de projet</p>
+
+        <br /> <!-- TO DELETE -->
+        <br /> <!-- TO DELETE -->
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../image/photo.png" alt="Nataliia Andriievska" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Nataliia Andriievska</h3>
+                        <p class="card-text">Cheffe de projet</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../image/photo.png" alt="Ekaterina Bredikhina" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Ekaterina Bredikhina</h3>
+                        <p class="card-text">Développeuse front-end</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../image/photo.png" alt="Rehab Alzarqa" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Rehab Alzarqa</h3>
+                        <p class="card-text">Développeuse front-end</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../image/photo.png" alt="Shogofa Arwina" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Shogofa Arwina</h3>
+                        <p class="card-text">Développeuse front-end</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../image/photo.png" alt="Quentin Marescaux" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Quentin Marescaux</h3>
+                        <p class="card-text">Formateur de développement web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../image/photo.png" alt="Cyril Haioun" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Cyril Haioun</h3>
+                        <p class="card-text">de la gestion de projet</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../image/photo.png" alt="Ekaterina Bredikhina" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="card-title">Ekaterina Bredikhina</h3>
-                    <p class="card-text">Développeuse front-end</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../image/photo.png" alt="Rehab Alzarqa" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="card-title">Rehab Alzarqa</h3>
-                    <p class="card-text">Développeuse front-end</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../image/photo.png" alt="Shogofa Arwina" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="card-title">Shogofa Arwina</h3>
-                    <p class="card-text">Développeuse front-end</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../image/photo.png" alt="Quentin Marescaux" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="card-title">Quentin Marescaux</h3>
-                    <p class="card-text">Formateur de développement web</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../image/photo.png" alt="Cyril Haioun" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="card-title">Cyril Haioun</h3>
-                    <p class="card-text">de la gestion de projet</p>
-                </div>
-            </div>
->>>>>>> 95d707e0c248e5ef87aac3aa815130493b03196c
-        </div>
-    </div>
-    
+    </main>
 </body>
 </html>
