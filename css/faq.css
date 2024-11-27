@@ -5,6 +5,7 @@
     color: #FCFCFC;
     margin-top: 50px;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 .card-faq h3 {
@@ -13,6 +14,8 @@
     font-weight: 600;
     color: #FCFCFC;
     margin-bottom: 16px;
+    margin-left: 20px;
+
 }
 
 .card-faq p {
@@ -21,4 +24,6 @@
     font-weight: 400;
     color: #FCFCFC;
     margin-bottom: 30px;
+    margin-left: 20px;
+
 }
