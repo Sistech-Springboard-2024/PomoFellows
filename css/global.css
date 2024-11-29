@@ -3,16 +3,15 @@
 body {
     background-color: #5A61D3;
     color: #FCFCFC;
-    font-family: Arial, sans-serif; /* تأكد من إضافة نوع الخط */
+    
 }
 
-/* إضافة تنسيق جديد فقط لهذه الحاوية */
 .center-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* جعل الحاوية تأخذ كامل ارتفاع الصفحة */
+    height: 100vh; 
     text-align: center;
 }
 
@@ -77,4 +76,3 @@ h1 {
     text-align: center;
     margin-top: 90px;
 }
-
