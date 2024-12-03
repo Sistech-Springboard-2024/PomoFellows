@@ -194,3 +194,9 @@ h1 {
         height: 57px;
     }
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
