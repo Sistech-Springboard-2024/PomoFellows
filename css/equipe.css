@@ -1,29 +1,35 @@
 .team-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* ثلاثة أعمدة */
-    gap: 40px;  /* المسافة بين العناصر */
-    text-align: center; /* محاذاة النصوص في المنتصف */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+    text-align: center; 
     margin-right: 20px;
 }
 
 .team-member {
     padding: 10px;
-    border: 1px solid #ddd; /* حدود خفيفة (اختياري) */
-    border-radius: 8px; /* زوايا مدورة (اختياري) */
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
     min-height: 200px;
+    transition: transform 0.2s ease;
 }
 
+.team-member:hover {
+    transform: scale(1.05);
+  }
+
+
 .foto {
-    width: 100px; /* عرض الصورة */
-    height: 100px; /* ارتفاع الصورة */
-    border-radius: 50%; /* جعل الصور دائرية */
-    object-fit: cover; /* لضبط الصورة داخل الإطار */
-    margin-bottom: 10px; /* مسافة تحت الصورة */
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px;
 }
 
 #description {
     font-family: "Mulish", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: #FCFCFC;
     margin-bottom: 40px;
