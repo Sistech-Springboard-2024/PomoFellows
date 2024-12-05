@@ -1,9 +1,33 @@
+
+#navbarNav ul {
+    list-style: none; /* لإزالة النقاط أمام القائمة */
+    padding: 0;
+    margin: 0;
+    display: flex; /* لجعل العناصر أفقية */
+    gap: 25px; /* لإضافة مسافة بين العناصر */
+}
+
+#navbarNav ul li a {
+    text-decoration: none; /* لإزالة الخط السفلي */
+    color: #282C5F;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#navbarNav ul li a:hover {
+    color: #1E90FF; /* لون عند التمرير */
+}
+
+
+
+
 .team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 40px; 
     text-align: center; 
-    margin-right: 20px;
+margin: 30px;
 }
 
 .team-member {
@@ -29,10 +53,11 @@
 
 #description {
     font-family: "Mulish", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     color: #FCFCFC;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 #team {
@@ -41,6 +66,7 @@
     font-weight: 700;
     color: #FCFCFC;
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 .card-title {

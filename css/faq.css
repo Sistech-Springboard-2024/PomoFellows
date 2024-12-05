@@ -1,3 +1,25 @@
+
+
+#navbarNav ul {
+    list-style: none; /* لإزالة النقاط أمام القائمة */
+    padding: 0;
+    margin: 0;
+    display: flex; /* لجعل العناصر أفقية */
+    gap: 20px; /* لإضافة مسافة بين العناصر */
+}
+
+#navbarNav ul li a {
+    text-decoration: none; /* لإزالة الخط السفلي */
+    color: #282C5F;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#navbarNav ul li a:hover {
+    color: #1E90FF; /* لون عند التمرير */
+}
+
 #faq {
     font-family: "Mulish", sans-serif;
     font-size: 52px;
