@@ -27,7 +27,7 @@
     grid-template-columns: repeat(3, 1fr); 
     gap: 40px; 
     text-align: center; 
-margin: 30px;
+    margin: 30px;
 }
 
 .team-member {
@@ -43,7 +43,7 @@ margin: 30px;
   }
 
 
-.foto {
+.photo {
     width: 100px; 
     height: 100px;
     border-radius: 50%; 

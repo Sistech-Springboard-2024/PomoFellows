@@ -119,26 +119,26 @@
 }
 
 
-h1 {
+#countdown {
     color: #FCFCFC;
     font-family: "Mulish", sans-serif;
     font-weight: 700;
     text-align: center;
 }
 @media (min-width: 1440px) {
-    h1 {
+    #countdown {
         font-size: 300px;
         margin-top: 90px;
     }
 }
 @media (min-width: 768px) and (max-width: 1439px) {
-    h1 {
+    #countdown {
         font-size: 240px;
         margin-top: 90px;
     }
 }
 @media (min-width: 360px) and (max-width: 767px) {
-    h1 {
+    #countdown {
         font-size: 120px;
         margin-top: 70px;
     }

@@ -84,3 +84,8 @@ function timerService_stopTimer() {
     clearInterval(global_intervalId);
     global_intervalId = null;
 }
+
+timerService_createTimer("countdown", 25);
+timerService_setTimerValue(25);
+document.getElementById('button-debut').addEventListener('click', timerService_startTimer);
+document.getElementById('button-arreter').addEventListener('click', timerService_stopTimer);
