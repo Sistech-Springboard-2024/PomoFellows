@@ -76,3 +76,121 @@ h1 {
     text-align: center;
     margin-top: 90px;
 }
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 90px;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    #header {
+        height: 64px;
+    }
+}
+
+.logo {
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 1440px) {
+    .logo {
+        margin-left: 80px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    .logo {
+        margin-left: 40px;
+    }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .logo {
+        margin-left: 20px;
+        height: 25px;
+    }
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    align-items: center;
+}
+@media (min-width: 1440px) {
+    #navbarNav {
+        margin-right: 80px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    #navbarNav {
+        margin-right: 40px;
+    }
+}
+
+.navbar-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navbar-nav li a {
+    text-decoration: none;
+    color: #282C5F;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.navbar-nav li a:hover {
+    color: #5A61D3;
+}
+
+.menu-icon {
+    width: 36px;
+}
+.navbar-toggler {
+    padding: 0 !important;
+    margin-right: 20px;
+    border: none;
+}
+
+
+.navbar-toggler {
+    display: none; 
+}
+
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+        display: block; 
+    }
+
+    .navbar-collapse {
+        display: none; 
+        flex-direction: column; 
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding-top: 30px; 
+        padding-bottom: 30px; 
+    }
+
+    .navbar-collapse.show {
+        display: flex;
+    }
+
+    .navbar-nav {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .navbar-nav li {
+        margin: 10px 0;
+    }
+    .navbar-nav li a {
+        font-size: 24px; 
+        color: #282C5F;
+        text-decoration: none;
+    }
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+    box-shadow: none;
+}
